@@ -18,7 +18,7 @@ type_tags:
 is_requires_admin_user: false
 is_always_run: true
 is_skippable: true
-run_if: not (enveq "BITRISE_PULL_REQUEST" "")
+run_if: not (enveq "BITRISE_PULL_REQUEST")
 
 deps:
   brew:
